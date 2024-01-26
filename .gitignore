@@ -1,0 +1,42 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment
+venv/
+
+# Ignore database files
+db.sqlite3
+*.sqlite3
+
+# Ignore staticfiles folder (if using 'collectstatic' management command)
+staticfiles/
+
+# Ignore media files (if using 'MEDIA_ROOT' for file uploads)
+media/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore environment variables file
+.env
+
+# Ignore logs
+*.log
+
+# Ignore coverage report
+htmlcov/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore database configuration
+database.yml
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore Visual Studio Code settings
+.vscode/
